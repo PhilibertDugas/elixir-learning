@@ -17,7 +17,6 @@ defmodule Multithread do
         loop
       %HTTPotion.AsyncEnd{} ->
         IO.puts "end"
-        loop
     end
   end
 end
