@@ -28,7 +28,8 @@ defmodule Multithread.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpotion, "~> 3.0.0"}
+      {:httpotion, "~> 3.0.0"},
+      {:poison, "~> 2.0"}
     ]
   end
 end

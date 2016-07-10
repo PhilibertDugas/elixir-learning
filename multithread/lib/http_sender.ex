@@ -1,9 +1,9 @@
-defmodule Multithread do
-  def send_request(pid, request) do
+defmodule HTTPSender do
+  def send_request(request, pid) do
     HTTPotion.get request, [stream_to: pid]
   end
 
-  def receive_messages do
+  def receive_requests do
     Task.start_link(fn -> loop end)
   end
 
@@ -13,7 +13,7 @@ defmodule Multithread do
         IO.puts Integer.to_string(status_code)
         loop
       %HTTPotion.AsyncChunk{chunk: chunk} ->
-        IO.puts chunk
+        IO.puts "Request Chunk Received"
         loop
       %HTTPotion.AsyncEnd{} ->
         IO.puts "end"

@@ -1,0 +1,13 @@
+{
+  "elt": [
+    {
+			"threads": 10,
+      "repetitions": 3,
+      "requests":
+        {
+          "url": "http://philibertd.com",
+          "method": "GET"
+        }
+    }
+  ]
+}
