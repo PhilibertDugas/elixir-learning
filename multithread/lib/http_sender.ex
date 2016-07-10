@@ -17,6 +17,9 @@ defmodule HTTPSender do
         loop
       %HTTPotion.AsyncEnd{} ->
         IO.puts "end"
+        loop
+    after
+      5_000 -> "No request in 5 seconds"
     end
   end
 end
