@@ -14,7 +14,7 @@ defmodule Multithread.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :httpotion]]
+    [applications: [:logger, :httpotion, :logger_file_backend]]
   end
 
   # Dependencies can be Hex packages:
@@ -29,7 +29,8 @@ defmodule Multithread.Mixfile do
   defp deps do
     [
       {:httpotion, "~> 3.0.0"},
-      {:poison, "~> 2.0"}
+      {:poison, "~> 2.0"},
+      {:logger_file_backend, "~>0.0.7"}
     ]
   end
 end

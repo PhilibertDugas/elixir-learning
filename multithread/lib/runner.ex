@@ -15,19 +15,18 @@ defmodule Runner do
       0 -> IO.puts "Finished starting threads"
       _ ->
         Task.start fn ->
-          {:ok, pid} = HTTPSender.receive_requests
-          launch_request(requests, repetitions, pid)
+          launch_request(requests, repetitions)
         end
         launch_threads(%{ param | "threads" => threads - 1 })
     end
   end
 
-  defp launch_request(request = %{"url" => url}, repetition, pid) do
+  defp launch_request(request = %{"url" => url}, repetition) do
     case repetition do
       0 -> IO.puts "finished sending request"
       _ ->
-      HTTPSender.send_request(url, pid)
-      launch_request(request, repetition - 1, pid)
+      HTTPSender.send_and_log_request(url)
+      launch_request(request, repetition - 1)
     end
   end
 end
