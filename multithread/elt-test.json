@@ -6,8 +6,22 @@
       "requests":
         {
           "url": "http://philibertd.com",
-          "method": "GET"
+          "method": "GET",
+          "assert": {
+            "status_code": 200
+          }
         }
+    },
+    {
+      "threads": 5,
+      "repetitions": 1,
+      "requests": {
+        "url": "http://google.com",
+        "method": "GET",
+        "assert": {
+          "status_code": 200
+        }
+      }
     }
   ]
 }

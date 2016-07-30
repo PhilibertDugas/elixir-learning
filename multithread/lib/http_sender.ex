@@ -1,12 +1,19 @@
 require Logger
 
 defmodule HTTPSender do
-  def send_and_log_request(request) do
-    Task.start_link(
+  def send_and_log_request(method, url, assert) do
+    atom_method = String.downcase(method) |> String.to_atom
+    Task.start(
       fn ->
-        %HTTPotion.Response{status_code: status_code} = HTTPotion.get request
-        Logger.info("Request #{request} finished with status code: #{status_code}")
+        {time, %HTTPotion.Response{status_code: status_code}} = :timer.tc(fn -> HTTPotion.request(atom_method, url) end)
+        log_request(url, status_code, assert, time)
       end
     )
+  end
+
+  defp log_request(url, status_code, assert, time) do
+    milliseconds_time = time / 1000
+    success = assert["status_code"] == status_code
+    Logger.info("Request: #{url}, Status Code: #{status_code}, Success: #{success}, Time: #{milliseconds_time}ms")
   end
 end

@@ -1,30 +1,35 @@
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.115 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.406 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.406 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.406 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.407 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.409 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.409 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.409 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.409 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.409 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.409 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.410 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.410 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.410 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.411 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.411 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.411 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.411 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.412 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.413 [info] Request http://philibertd.com finished with status code: 200
-13:57:14.413 [info] Request http://philibertd.com finished with status code: 200
+16:51:36.398 [info] Request: http://google.com, Status Code: 302, Success: false, Time: 80.902ms
+16:51:36.398 [info] Request: http://google.com, Status Code: 302, Success: false, Time: 80.895ms
+16:51:36.398 [info] Request: http://google.com, Status Code: 302, Success: false, Time: 83.578ms
+16:51:36.398 [info] Request: http://google.com, Status Code: 302, Success: false, Time: 83.591ms
+16:51:36.398 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 84.011ms
+16:51:36.398 [info] Request: http://google.com, Status Code: 302, Success: false, Time: 84.494ms
+16:51:36.402 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 88.193ms
+16:51:36.405 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 91.326ms
+16:51:36.405 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 91.665ms
+16:51:36.407 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 93.374ms
+16:51:36.408 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 94.736ms
+16:51:36.408 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 94.889ms
+16:51:36.410 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 96.364ms
+16:51:36.426 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 112.429ms
+16:51:36.426 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 112.432ms
+16:51:36.427 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 113.384ms
+16:51:36.427 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 113.624ms
+16:51:36.427 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 113.771ms
+16:51:36.428 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 113.679ms
+16:51:36.535 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 221.354ms
+16:51:36.536 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 222.328ms
+16:51:36.555 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 241.524ms
+16:51:36.555 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 241.601ms
+16:51:36.556 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 242.6ms
+16:51:36.556 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 242.533ms
+16:51:36.560 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 246.322ms
+16:51:36.561 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 247.226ms
+16:51:36.565 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 251.514ms
+16:51:36.566 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 252.699ms
+16:51:36.595 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 281.478ms
+16:51:36.596 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 281.781ms
+16:51:36.599 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 285.553ms
+16:51:36.601 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 286.804ms
+16:51:36.727 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 413.297ms
+16:51:36.728 [info] Request: http://philibertd.com, Status Code: 200, Success: true, Time: 414.364ms
